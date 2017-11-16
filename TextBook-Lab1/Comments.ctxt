@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Comments
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Comments\ here.\r\n\ This\ Program\ counts\ from\ 1\ to\ 5\ in\ 3\ differnt\ languages\r\n\ @author\ Nathan\ Kessenich\r\n\ @version\ Version;\ 1\ Date;\ 9/28/17\r\n\ Q3\:\ it\ tell\ you\ that\ you\ made\ an\ illage\ start\ of\ an\ exspresstion\r\n\ Q4\:nothing\ happens\ when\ you\ put\ a\ comment\ in\ a\ comment\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

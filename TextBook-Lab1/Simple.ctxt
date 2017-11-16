@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Simple
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ProgramNames\ here.\r\n\r\n\ @author\ Nathan\ Kessenich\r\n\ @version\ 1\r\n\ \r\n\ Q1\:\ it\ doesnt\ start\ with\ a\ capitol\r\n\ Q2\:\ works\r\n\ Q3\:\ cant\ put\ a\ number\ in\ front\ of\ a\ name\ \r\n\ Q4\:\ Works\ but\ is\ a\ bad\ name\ because\ it\ does\ not\ start\ with\ a\ Letter\r\n\ Q5\:\ Does\ not\ work\ because\ of\ the\ *\r\n\ Q6\:\ Works\ but\ again\ does\ not\ start\ with\ a\ letter\ there\ for\ should\ not\ be\ used\r\n\ Q7\:\ does\ not\ work\ because\ of\ the\ \!\ because\ \!\ is\ a\ function\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

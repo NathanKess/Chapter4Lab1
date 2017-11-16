@@ -1,0 +1,63 @@
+<!doctype html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8" />
+	<title>Phaser - Making your first game, part 1</title>
+	<script type="text/javascript" src="js/phaser.min.js"></script>
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<script type="text/javascript">
+
+var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
+
+function preload() {
+    game.load.image('sky', 'assets/sky.png');
+    game.load.image('ground', 'assets/platform.png');
+    game.load.image('star', 'assets/star.png');
+    game.load.spritesheet('dude', 'assets/dude.png', 32, 48);
+    
+}
+
+function create() {
+    game.add.sprite(0, 0, 'star');
+    //  We're going to be using physics, so enable the Arcade Physics system
+    
+ 
+    //  A simple background for our game
+    
+ 
+    //  The platforms group contains the ground and the 2 ledges we can jump on
+  
+ 
+    //  We will enable physics for any object that is created in this group
+   
+ 
+    // Here we create the ground.
+    
+ 
+    //  Scale it to fit the width of the game (the original sprite is 400x32 in size)
+ 
+ 
+    //  This stops it from falling away when you jump on it
+
+ 
+    //  Now let's create two ledges
+   
+
+}
+
+function update() {
+    //This is where the game logic will go.  Very similar to the draw handler in codeskulptor
+    
+}
+
+</script>
+
+</body>
+</html>
